@@ -44,8 +44,11 @@ ArdiPi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/
 
 
 ### 1. Step to install boot Firmware
-   - Every ArdiPi board will be provided with boot firmware already installed, so you can directly go to step 2.
-   - If, in any case, you are required to install firmware for your board, then you can follow the guide [here](https://github.com/sbcshop/EnkPi_7.5_Software/blob/main/Downloads/Pico%20W%20Micropython%20Firmware%20Installation%20Steps.pdf)
+   - Every ArdiPi board will be provided with boot firmware already installed, so you can skip this step and directly go to step 2.
+   - If in case you want to install firmware for your board, Push and hold the BOOTSEL button and plug your Pico W into the USB port of your computer. Release the BOOTSEL button after your Pico is connected.
+     <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif">
+   - It will mount as a Mass Storage Device called RPI-RP2.
+   - Drag and drop the MicroPython UF2 file onto the RPI-RP2 volume. Your Pico will reboot. You are now running MicroPython.
 
 ### 2. Onboard LED Blink 
    - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and install it.
@@ -77,12 +80,17 @@ ArdiPi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/
 
 ### Example Codes
    Save whatever example code file you want to try as main.py in pico w as shown in above [step 3](https://github.com/sbcshop/ArdiPi_Software/tree/main#3-how-to-move-your-script-on-pico-w-of-ardipi), also add related lib files with default name.
-   - [Example 1]() : 
-   - [Example 2]() : 
-   - [Example 3]() : 
-   - and [Many more...](https://github.com/sbcshop/ArdiPi_Software/tree/main/examples)
+   In [example](https://github.com/sbcshop/ArdiPi_Software/tree/main/examples) folder you will find demo example script code to test onboard components of ArdiPi like 
+   - [Buzzer](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/BuzzerDemo.py), 
+   - [SD card](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/sdcardDemo.py),
    
-   Now you are ready to try out your own codes, **_Happy Coding!_**
+   Also, sample codes are available for ArdiPi shields
+   - [Relay](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/relay_shield_demo.py) : code test switching of relays in sequence 
+   - [RFID](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/RFID_shield_demo.py) : code to test RFID module scan and switching of Relay
+   - [Display]() : testing of display and programmable buttons
+   - [UHF]() : testing UHF module 
+   
+   Taking reference of this sample codes, you can Modify, Build and Share codes!!
    
 ## Resources
   * [Schematic](https://github.com/sbcshop/ArdiPi_Hardware/blob/main/Design%20Data/SCH_ArdiPi.pdf)
@@ -94,7 +102,7 @@ ArdiPi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/
 
 
 ## Related Products
-   * [ArdiFi](https://shop.sb-components.co.uk/products/ardi-series-arduino-uno-alternative?variant=40572595732563) - Arduino Uno Form factor with latest powerful ESP32 S3
+   * [ArdiFi](https://shop.sb-components.co.uk/products/ardi32-uno-r3-alternative-board-based-on-esp32-s3-wroom?_pos=6&_sid=90d9cefb0&_ss=r) - Arduino Uno Form factor with latest powerful ESP32 S3
    * [Ardi Relay Shield](https://shop.sb-components.co.uk/products/ardi-relay-shield-for-arduino-uno?_pos=4&_sid=961a5887c&_ss=r) - Relay Shield with Screw terminal and Relay ON/OFF Status LED
    * [Ardi Display Shield](https://shop.sb-components.co.uk/products/ardi-display-shield-for-arduino-uno?_pos=5&_sid=961a5887c&_ss=r) - 2.0" Display Shield with onboard Programmable Buttons and Joystick
    * [Ardi UHF Shield](https://shop.sb-components.co.uk/products/ardi-uhf-shield-for-arduino-uno?variant=40791294836819) - UHF based shield with Oled display and Buzzer onboard
