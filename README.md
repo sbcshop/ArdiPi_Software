@@ -70,31 +70,29 @@ This github provides getting started guide and other working details for ArdiPi.
 
 
 ### Example Codes
-   Save whatever example code file you want to try as main.py in pico w as shown in above [step 3](https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Software#3-how-to-move-your-script-on-pico-w-of-touchsy), also add related lib files with default name.
-   - [Example 1](https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Software/blob/main/examples/DisplayDemo.py) : Display demo code
-   - [Example 2](https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Software/blob/main/examples/TouchDemo.py) : Touch demo code
-   - [Example 3](https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Software/blob/main/examples/ButtonDemo.py) : Button & Buzzer testing with display code
-   - [Example 4](https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Software/blob/main/examples/demo_SDcard.py) : How to use sdcard for data write operation
-   - [Example 5](https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Software/blob/main/examples/colorWheel.py) : Animation colorWheel demo
+   Save whatever example code file you want to try as main.py in pico w as shown in above [step 3](https://github.com/sbcshop/ArdiPi_Software/tree/main#3-how-to-move-your-script-on-pico-w-of-ardipi), also add related lib files with default name.
+   - [Example 1]() : 
+   - [Example 2]() : 
+   - [Example 3]() : Button & Buzzer testing with display code
    - and [Many more...](https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Software/tree/main/examples)
    
    Now you are ready to try out your own codes, **_Happy Coding!_**
    
 ## Resources
-  * [Schematic](https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Hardware/blob/main/Design%20Data/SCH%20Touchsy%20based%20on%20PICO%20W%20(capacitive).pdf)
-  * [Hardware Files](https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Hardware/tree/main)
-  * [Step File](https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Hardware/blob/main/Mechanical%20Data/STEP%20Touchsy%20based%20on%20PICO%20W%20(capacitive).step)
+  * [Schematic](https://github.com/sbcshop/ArdiPi_Hardware/blob/main/Design%20Data/SCH_ArdiPi.pdf)
+  * [Hardware Files](https://github.com/sbcshop/ArdiPi_Hardware/tree/main)
+  * [Step File](https://github.com/sbcshop/ArdiPi_Hardware/blob/main/Mechanical%20Data/STEP_ArdiPi.step)
   * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
   * [Pico W Getting Started](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
   * [RP2040 Datasheet](https://github.com/sbcshop/HackyPi-Hardware/blob/main/Documents/rp2040-datasheet.pdf)
 
 
 ## Related Products
-   * [ArdiFi]() - Arduino Uno Form factor with latest powerful ESP32 S3
+   * [ArdiFi](https://shop.sb-components.co.uk/products/ardi-series-arduino-uno-alternative?variant=40572595732563) - Arduino Uno Form factor with latest powerful ESP32 S3
    * [Ardi Relay Shield](https://shop.sb-components.co.uk/products/ardi-relay-shield-for-arduino-uno?_pos=4&_sid=961a5887c&_ss=r) - Relay Shield with Screw terminal and Relay ON/OFF Status LED
-   * [Ardi Display Shield]() - 2.0" Display Shield with onboard Programmable Buttons and Joystick
-   * [Ardi UHF Shield]() - UHF based shield with Oled display and Buzzer onboard
-   * [Ardi RFID Shield]() - Ardi RFID Shield with onbard Relay and Status LED
+   * [Ardi Display Shield](https://shop.sb-components.co.uk/products/ardi-display-shield-for-arduino-uno?_pos=5&_sid=961a5887c&_ss=r) - 2.0" Display Shield with onboard Programmable Buttons and Joystick
+   * [Ardi UHF Shield](https://shop.sb-components.co.uk/products/ardi-uhf-shield-for-arduino-uno?variant=40791294836819) - UHF based shield with Oled display and Buzzer onboard
+   * [Ardi RFID Shield](https://shop.sb-components.co.uk/products/ardi-rfid-shield-for-arduino-uno?_pos=5&_sid=b4e4b2ef1&_ss=r) - Ardi RFID Shield with onbard Relay and Status LED
    
    Shields are compatible with ArdiPi, Ardi-32 and Other Arduino Uno Compatible boards.
 
