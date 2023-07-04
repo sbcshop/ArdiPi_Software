@@ -51,9 +51,12 @@ ArdiPi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/
    - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and install it.
    - Once done start **Thonny IDE application**, Connect ArdiPi with a laptop/PC using a micro USB cable and the micro USB port on Pico W present on ArdiPi.
    - Select device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
+     
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img1.jpg" />
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img2.jpg" />
-   - Write simple onboard blink Python code or [Download Led blink code](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/onboard_ledBlink.py), then click on the green run button to make your script run on ArdiPi. 
+      
+   - Write simple onboard blink Python code or [Download Led blink code](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/onboard_ledBlink.py), then click on the green run button to make your script run on ArdiPi.
+     
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img3.jpg" />
      
      Now that we've reached this point, you're executing your script through Thonny IDE, so if you unplug Pico, it will stop running. To run your script without using an IDE, simply power up ArdiPi and it should run your script, go to step 3. Once you have transferred your code to the ArdiPi board, to see your script running, just plug in power either way using micro USB or via Vin, both will work.
@@ -63,12 +66,13 @@ ArdiPi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/
      
       <img src="https://github.com/sbcshop/3.2_Touchsy_Pico_W_Resistive_Software/blob/main/images/transfer_script_pico.gif" />
    
-   In similar way you can add various python code files to Pico. Also you can try out sample codes given here in [examples folder](https://github.com/sbcshop/ArdiPi_Software/tree/main/examples). 
+      In similar way you can add various python code files to Pico. Also you can try out sample codes given here in [examples folder](https://github.com/sbcshop/ArdiPi_Software/tree/main/examples). 
    
    - But in case if you want to move multiple files at one go, example suppose you are interested to save library files folder into Pico W, below image demonstrate that
+     
       <img src="https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Software/blob/main/images/multiple_file_transfer.gif" />
    
-**NOTE: Don't rename _lib_ files** and also you will have to move related font file if used inside code.
+**NOTE: Don't rename _lib_ files** or and other files, only your main code script should be rename as main.py for standalone execution without Thonny.
 
 
 ### Example Codes
