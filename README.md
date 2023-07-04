@@ -90,11 +90,13 @@ This github provides getting started guide and other working details for ArdiPi.
 
 
 ## Related Products
-   * [3.2" Touchsy ESP32](https://shop.sb-components.co.uk/collections/pre-order/products/touchsy-3-2-touch-lcd-display-based-on-esp32-mcu) - 3.2" Touchsy ESP32 with Resistive and Capacitive version. 
-   * [3.2" Touchsy Pico W](https://shop.sb-components.co.uk/collections/pre-order/products/touchsy-3-2-touch-lcd-display-based-on-pico-w) - 3.2" Touchsy Pico W with Resistive and Capacitive version.
-   * [3.2" Touchsy Breakout](https://shop.sb-components.co.uk/collections/pre-order/products/touchsy-3-2-touch-lcd-display-breakout-board) - 3.2" Touchsy Breakout with Resistive and Capacitive version.
-   * [3.2" Touchsy HAT](https://shop.sb-components.co.uk/collections/pre-order/products/touchsy-3-2-touch-lcd-display-for-raspberry-pi) - 3.2" Touchsy HAT with Resistive version for Raspberry Pi.
-   * [1.28" Round Touch LCD HAT](https://shop.sb-components.co.uk/products/1-28-round-touch-lcd-hat-for-raspberry-pi?_pos=2&_sid=6c0f5891d&_ss=r) - 1.28" Round Touch LCD HAT for Raspberry Pi.
+   * [ArdiFi]() - Arduino Uno Form factor with latest powerful ESP32 S3
+   * [Ardi Relay Shield](https://shop.sb-components.co.uk/products/ardi-relay-shield-for-arduino-uno?_pos=4&_sid=961a5887c&_ss=r) - Relay Shield with Screw terminal and Relay ON/OFF Status LED
+   * [Ardi Display Shield]() - 2.0" Display Shield with onboard Programmable Buttons and Joystick
+   * [Ardi UHF Shield]() - UHF based shield with Oled display and Buzzer onboard
+   * [Ardi RFID Shield]() - Ardi RFID Shield with onbard Relay and Status LED
+   
+   Shields are compatible with ArdiPi, Ardi-32 and Other Arduino Uno Compatible boards.
 
 ## Product License
 
