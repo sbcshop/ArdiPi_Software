@@ -46,9 +46,10 @@ ArdiPi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/
 ### 1. Step to install boot Firmware
    - Every ArdiPi board will be provided with boot firmware already installed, so you can skip this step and directly go to step 2.
    - If in case you want to install firmware for your board, Push and hold the BOOTSEL button and plug your Pico W into the USB port of your computer. Release the BOOTSEL button after your Pico is connected.
-     <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif">
+   <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif">
+   
    - It will mount as a Mass Storage Device called RPI-RP2.
-   - Drag and drop the MicroPython UF2 file onto the RPI-RP2 volume. Your Pico will reboot. You are now running MicroPython.
+   - Drag and drop the MicroPython UF2 - [ArdiPi_firmware](https://github.com/sbcshop/ArdiPi_Software/blob/main/ArdiPi_firmware.uf2) file provided in this github onto the RPI-RP2 volume. Your Pico will reboot. You are now running MicroPython on ArdiPi.
 
 ### 2. Onboard LED Blink 
    - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and install it.
