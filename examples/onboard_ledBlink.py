@@ -1,3 +1,4 @@
+#import library to access port and time function
 from machine import Pin
 from time import sleep
 
