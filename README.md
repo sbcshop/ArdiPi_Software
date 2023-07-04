@@ -3,6 +3,8 @@
 Introducing ArdiPi the ultimate Arduino Uno alternative packed with powerful specs and exciting features in Arduino Uno form factor. You can enjoy a low-cost solution with access to the largest support communities for Raspberry Pi. 
 This github provides getting started guide and other working details for ArdiPi.
 
+ArdiPi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/ardi-relay-shield-for-arduino-uno?_pos=4&_sid=961a5887c&_ss=r), [RFID](https://shop.sb-components.co.uk/products/ardi-rfid-shield-for-arduino-uno?_pos=5&_sid=b4e4b2ef1&_ss=r), [Display](https://shop.sb-components.co.uk/products/ardi-display-shield-for-arduino-uno?_pos=5&_sid=961a5887c&_ss=r) and [UHF](https://shop.sb-components.co.uk/products/ardi-uhf-shield-for-arduino-uno?variant=40791294836819) which you can use to add more functionality into projects. 
+
 ### Features:
 - Arduino UNO Form factor, so you can connect 3.3V compatible Arduino shields  
 - SD card slot for storage and data transfer
@@ -51,7 +53,7 @@ This github provides getting started guide and other working details for ArdiPi.
    - Select device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img1.jpg" />
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img2.jpg" />
-   - Write simple onboard blink Python code or [Download Led blink code](), then click on the green run button to make your script run on ArdiPi. 
+   - Write simple onboard blink Python code or [Download Led blink code](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/onboard_ledBlink.py), then click on the green run button to make your script run on ArdiPi. 
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img3.jpg" />
      
      Now that we've reached this point, you're executing your script through Thonny IDE, so if you unplug Pico, it will stop running. To run your script without using an IDE, simply power up ArdiPi and it should run your script, go to step 3. Once you have transferred your code to the ArdiPi board, to see your script running, just plug in power either way using micro USB or via Vin, both will work.
@@ -61,7 +63,7 @@ This github provides getting started guide and other working details for ArdiPi.
      
       <img src="https://github.com/sbcshop/3.2_Touchsy_Pico_W_Resistive_Software/blob/main/images/transfer_script_pico.gif" />
    
-   In similar way you can add various python code files to Pico. Also you can try out sample codes given here in [examples folder](). 
+   In similar way you can add various python code files to Pico. Also you can try out sample codes given here in [examples folder](https://github.com/sbcshop/ArdiPi_Software/tree/main/examples). 
    
    - But in case if you want to move multiple files at one go, example suppose you are interested to save library files folder into Pico W, below image demonstrate that
       <img src="https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Software/blob/main/images/multiple_file_transfer.gif" />
@@ -73,8 +75,8 @@ This github provides getting started guide and other working details for ArdiPi.
    Save whatever example code file you want to try as main.py in pico w as shown in above [step 3](https://github.com/sbcshop/ArdiPi_Software/tree/main#3-how-to-move-your-script-on-pico-w-of-ardipi), also add related lib files with default name.
    - [Example 1]() : 
    - [Example 2]() : 
-   - [Example 3]() : Button & Buzzer testing with display code
-   - and [Many more...](https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Software/tree/main/examples)
+   - [Example 3]() : 
+   - and [Many more...](https://github.com/sbcshop/ArdiPi_Software/tree/main/examples)
    
    Now you are ready to try out your own codes, **_Happy Coding!_**
    
