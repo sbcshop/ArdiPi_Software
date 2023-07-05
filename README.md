@@ -100,7 +100,7 @@ Note: When SD card not connected, then above related pins can be used for normal
    - [Relay](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/relay_shield_demo.py) : code test switching of relays in sequence 
    - [RFID](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/RFID_shield_demo.py) : code to test RFID module scan and switching of Relay
    - [Display](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/display_shield_Demo.py) : testing of display and programmable buttons
-   - [UHF]() : testing onboard UHF module , buzzer and display unit of shield 
+   - [UHF](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/uhf_shield_demo.py) : testing onboard UHF module , buzzer and display unit of shield. Here you will have to add [ssd1306](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/lib/ssd1306.py) oled display and [uhf](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/lib/uhf.py) module related library file
    
    Using this sample code as a guide, you can modify, build, and share codes!!  
    
