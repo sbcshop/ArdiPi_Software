@@ -93,8 +93,8 @@ Note: When SD card not connected, then above related pins can be used for normal
 ### Example Codes
    Save whatever example code file you want to try as main.py in pico w as shown in above [step 3](https://github.com/sbcshop/ArdiPi_Software/tree/main#3-how-to-move-your-script-on-pico-w-of-ardipi), also add related lib files with default name.
    In [example](https://github.com/sbcshop/ArdiPi_Software/tree/main/examples) folder you will find demo example script code to test onboard components of ArdiPi like 
-   - [Buzzer](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/BuzzerDemo.py), 
-   - [SD card](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/sdcardDemo.py),
+   - [Buzzer](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/BuzzerDemo.py) : demo code to test onboard Buzzer
+   - [SD card](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/sdcardDemo.py) : demo code to test SD card operation
    
    Also, sample codes are available for ArdiPi shields
    - [Ardi Relay shield](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/relay_shield_demo.py) : code test switching of relays in sequence 
