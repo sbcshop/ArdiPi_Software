@@ -89,9 +89,9 @@ ArdiPi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/
    - [Relay](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/relay_shield_demo.py) : code test switching of relays in sequence 
    - [RFID](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/RFID_shield_demo.py) : code to test RFID module scan and switching of Relay
    - [Display](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/display_shield_Demo.py) : testing of display and programmable buttons
-   - [UHF]() : testing UHF module 
+   - [UHF]() : testing onboard UHF module , buzzer and display unit of shield 
    
-   Taking reference of this sample codes, you can Modify, Build and Share codes!!
+   Using this sample code as a guide, you can modify, build, and share codes!!  
    
 ## Resources
   * [Schematic](https://github.com/sbcshop/ArdiPi_Hardware/blob/main/Design%20Data/SCH_ArdiPi.pdf)
