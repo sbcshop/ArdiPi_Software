@@ -42,6 +42,17 @@ ArdiPi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/
 #### GPIO Pins Detail
 <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/ArdiPI_GPIO_PinDetail.jpg">
 
+### Interfacing Details
+  | Pico W | Hardware Pin | Function |
+  |---|---|---|
+  |GP18 | SCLK | Clock pin of SPI interface for microSD card |
+  |GP19 | DIN  | MOSI (Master OUT Slave IN) data pin of SPI interface for microSD card|
+  |GP16 | DOUT | MISO (Master IN Slave OUT) data pin of SPI interface for microSD card|
+  |GP17 | CS   | Chip Select pin of SPI interface for microSD card|
+  |GP22 | Buzzer| Buzzer PWM pin connection|
+
+Note: When SD card not connected, then above related pins can be used for normal GPIO operations.
+
 
 ### 1. Step to install boot Firmware
    - Every ArdiPi board will be provided with boot firmware already installed, so you can skip this step and directly go to step 2.
