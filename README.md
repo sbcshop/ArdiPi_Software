@@ -45,10 +45,10 @@ ArdiPi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/
 ### Interfacing Details
   | Pico W | Hardware Pin | Function |
   |---|---|---|
-  |GP18 | SCLK | Clock pin of SPI interface for microSD card |
-  |GP19 | DIN  | MOSI (Master OUT Slave IN) data pin of SPI interface for microSD card|
-  |GP16 | DOUT | MISO (Master IN Slave OUT) data pin of SPI interface for microSD card|
-  |GP17 | CS   | Chip Select pin of SPI interface for microSD card|
+  |GP2 | SCLK | Clock pin of SPI interface for microSD card |
+  |GP3 | DIN  | MOSI (Master OUT Slave IN) data pin of SPI interface for microSD card|
+  |GP4 | DOUT | MISO (Master IN Slave OUT) data pin of SPI interface for microSD card|
+  |GP5 | CS   | Chip Select pin of SPI interface for microSD card|
   |GP22 | Buzzer| Buzzer PWM pin connection|
 
 Note: When SD card not connected, then above related pins can be used for normal GPIO operations.
