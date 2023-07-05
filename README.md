@@ -53,7 +53,7 @@ ArdiPi Compatible Shields are [Relay](https://shop.sb-components.co.uk/products/
 
 ### 2. Onboard LED Blink 
    - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and install it.
-   - Once done start **Thonny IDE application**, Connect ArdiPi with a laptop/PC using a micro USB cable and the micro USB port on Pico W present on ArdiPi.
+   - Once done start **Thonny IDE application**, Connect ArdiPi to laptop/PC.
    - Select device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
      
       <img src= "https://github.com/sbcshop/EnkPi_2.9_Software/blob/main/images/img1.jpg" />
