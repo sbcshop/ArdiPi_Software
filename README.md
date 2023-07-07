@@ -97,10 +97,10 @@ Note: When SD card not connected, then above related pins can be used for normal
    - [SD card](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/sdcardDemo.py) : code to test onboard micro SD card interfacing
    
    Also, sample codes are available for ArdiPi shields
-   - [Ardi Relay shield](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/relay_shield_demo.py) : code test switching of relays in sequence 
-   - [Ardi RFID shield](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/RFID_shield_demo.py) : code to test RFID module scan and switching of Relay
-   - [Ardi Display shield](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/display_shield_Demo.py) : testing of display and programmable buttons
-   - [Ardi UHF shield](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/uhf_shield_demo.py) : testing onboard UHF module , buzzer and display unit of shield. Here you will have to add [ssd1306](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/lib/ssd1306.py) oled display and [uhf](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/lib/uhf.py) module related library file
+   - [Ardi Relay shield](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/ArdiPi_relay_shield_interfacing.py) : code test switching of relays in sequence 
+   - [Ardi RFID shield](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/ArdiPi_RFID_shield_interfacing.py) : code to test RFID module scan and switching of Relay
+   - [Ardi Display shield](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/ArdiPi_Display_shield_interfacing.py) : testing of display and programmable buttons
+   - [Ardi UHF shield](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/ArdiPi_UHF_shield_interfacing.py) : testing onboard UHF module , buzzer and display unit of shield. Here you will have to add [ssd1306](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/lib/ssd1306.py) oled display and [uhf](https://github.com/sbcshop/ArdiPi_Software/blob/main/examples/lib/uhf.py) module related library file
    
    Using this sample code as a guide, you can modify, build, and share codes!!  
    
