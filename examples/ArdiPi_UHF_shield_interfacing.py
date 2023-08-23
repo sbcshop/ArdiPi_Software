@@ -3,7 +3,7 @@ from ssd1306 import SSD1306_I2C		#display controller library
 from uhf import UHF					#library for UHF module related methods
 import time
 
-WIDTH  = 120   # oled display width
+WIDTH  = 128   # oled display width
 HEIGHT = 32    # oled display height
 
 enable_pin = machine.Pin(4, machine.Pin.OUT) #define enable pin as OUTPUT
