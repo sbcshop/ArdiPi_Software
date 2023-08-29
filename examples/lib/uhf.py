@@ -11,7 +11,7 @@ SINGLE_READ   ='22000022'
 STOP_READ     ='28000028'
 class UHF():
     def __init__(self,baudrate):
-        self.serial = machine.UART(1, baudrate=baudrate, bits=8, parity=None, stop=1, tx=machine.Pin(4), rx=machine.Pin(5))
+        self.serial = machine.UART(0, baudrate=baudrate, bits=8, parity=None, stop=1, tx=machine.Pin(0), rx=machine.Pin(1))
         self.serial.init(baudrate=baudrate, bits=8, parity=None, stop=1)
         time.sleep(0.2)
         
